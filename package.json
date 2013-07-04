@@ -1,0 +1,24 @@
+{
+  "name": "pomelo-cli",
+  "version": "0.0.1",
+  "description": "pomelo command line client for maintening pomelo clusters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "pomelo",
+    "command",
+    "line",
+    "maintening"
+  ],
+  "dependencies":{
+    "optimist": "0.6.0",
+    "cliff" : "0.1.8",
+    "pomelo-admin" : "0.1.4",
+    "pomelo-logger" : "0.0.3"
+  },
+  "author": "fantasyni",
+  "license": "BSD"
+}
