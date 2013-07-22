@@ -13,11 +13,14 @@
     "line",
     "maintening"
   ],
+  "bin": {
+    "pomelo-cli": "./bin/pomelo-cli"
+  },
   "dependencies":{
-    "optimist": "0.6.0",
-    "cliff" : "0.1.8",
-    "pomelo-admin" : "0.1.4",
-    "pomelo-logger" : "0.0.3"
+    "optimist": ">=0.6.0",
+    "cliff" : ">=0.1.8",
+    "pomelo-admin" : ">=0.1.4",
+    "pomelo-logger" : ">=0.0.3"
   },
   "author": "fantasyni",
   "license": "BSD"
