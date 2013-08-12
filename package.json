@@ -19,7 +19,7 @@
   "dependencies":{
     "optimist": ">=0.6.0",
     "cliff" : ">=0.1.8",
-    "pomelo-admin" : ">=0.1.4",
+    "pomelo-admin" : "0.2.0",
     "pomelo-logger" : ">=0.0.3",
     "async" : ">=0.1.0"
   },

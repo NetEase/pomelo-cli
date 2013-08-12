@@ -12,13 +12,13 @@ npm install -g pomelo-cli
 use pomelo-cli to connect to pomelo master  
 
 ```
-pomelo-cli -h host -p port -u user -P password  
+pomelo-cli -h host -P port -u username -p password  
 ```  
 
 default type pomelo-cli equals to  
 
 ```  
-pomelo-cli -h 127.0.0.1 -p 3306 -u admin -P admin 
+pomelo-cli -h 127.0.0.1 -P 3306 -u monitor -p monitor 
 ```  
 
 then it will come to a repl mode, type help for help information  
