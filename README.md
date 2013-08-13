@@ -23,7 +23,7 @@ pomelo-cli -h 127.0.0.1 -P 3306 -u monitor -p monitor
 
 then it will come to a repl mode, type help for help information  
 enjoy with it  
-![pomelo-cli help](http://ww1.sinaimg.cn/large/b7bc844fgw1e7l4fqtww7j20iv0jsn0y.jpg)
+![pomelo-cli help](http://ww2.sinaimg.cn/large/b7bc844fgw1e7l4m1q369j20io0jytcr.jpg)
 
 ## License
 
