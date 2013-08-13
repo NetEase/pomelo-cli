@@ -10,7 +10,7 @@ var extra = argv._;
 if (extra && extra.length) {
 	showHelp();
 } else {
-	if(argv['h'] || argv['help']){
+	if(argv['help']){
 		showHelp();
 	} else {
 		cli();
