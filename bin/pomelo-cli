@@ -6,10 +6,15 @@ var consts = require('../lib/consts');
 var argv = require('optimist').argv;
 
 var extra = argv._;
+
 if (extra && extra.length) {
 	showHelp();
 } else {
-	cli();
+	if(argv['h'] || argv['help']){
+		showHelp();
+	} else {
+		cli();
+	}
 }
 
 function showHelp() {
