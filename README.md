@@ -1,7 +1,7 @@
 pomelo-cli
 ========
 
-pomelo-cli is a command-line library for [pomelo](https://github.com/NetEase/pomelo) maintenance.  
+pomelo-cli is a command-line tool for [pomelo](https://github.com/NetEase/pomelo).  
 you can use pomelo-cli to connect to pomelo master and do lots of things.
 
 ##Installation
@@ -9,20 +9,20 @@ you can use pomelo-cli to connect to pomelo master and do lots of things.
 npm install -g pomelo-cli
 ```
 ##Usage
-use pomelo-cli to connect to pomelo master  
+Use pomelo-cli to connect to pomelo master  
 
 ```
 pomelo-cli -h host -P port -u username -p password  
 ```  
 
-default type pomelo-cli equals to  
+The default parameter of pomelo-cli is as follows:
 
 ```  
 pomelo-cli -h 127.0.0.1 -P 3306 -u monitor -p monitor 
 ```  
 
-then it will come to a repl mode, type help for help information  
-enjoy with it  
+After that, pomelo-cli will enter repl mode. You can type 'help' for more information. 
+Enjoy it:
 ![pomelo-cli help](http://ww2.sinaimg.cn/large/b7bc844fgw1e7l4m1q369j20io0jytcr.jpg)
 
 ## License

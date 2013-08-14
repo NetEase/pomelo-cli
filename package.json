@@ -1,7 +1,7 @@
 {
   "name": "pomelo-cli",
   "version": "0.0.2",
-  "description": "pomelo command line client for maintening pomelo clusters",
+  "description": "Pomelo command line client for managing pomelo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
