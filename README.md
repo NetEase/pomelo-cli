@@ -26,7 +26,8 @@ Enjoy it:
 ![pomelo-cli help](http://ww2.sinaimg.cn/large/b7bc844fgw1e7l4m1q369j20io0jytcr.jpg)
 
 ## Links
-[user level control](https://github.com/NetEase/pomelo-admin#user-level-control)
+[user level control](https://github.com/NetEase/pomelo-admin#user-level-control)  
+[commands wiki](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page)
 
 ## License
 
