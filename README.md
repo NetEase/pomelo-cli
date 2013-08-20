@@ -25,6 +25,9 @@ After that, pomelo-cli will enter repl mode. You can type 'help' for more inform
 Enjoy it:
 ![pomelo-cli help](http://ww2.sinaimg.cn/large/b7bc844fgw1e7l4m1q369j20io0jytcr.jpg)
 
+## Links
+[user level control](https://github.com/NetEase/pomelo-admin#user-level-control)
+
 ## License
 
 (The MIT License)
