@@ -1,5 +1,6 @@
 # Commands list  
 
+- [use](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#use)  
 - [quit](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#quit)  
 - [kill](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#kill)  
 - [exec](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#exec)  
@@ -8,10 +9,20 @@
 - [add](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#add)  
 - [stop](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#stop)  
 - [show](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#show)  
-- [use](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#use)  
 - [enable](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#enable)  
 - [disable](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#disable)  
 - [dump](https://github.com/NetEase/pomelo-cli/wiki/pomelo-cli-man-page#dump)  
+
+# Use
+use another server. takes serverId|all as argument  
+use {serverId|all}  
+then you will switch to serverId|all context  
+your command will be applied to serverId|all server  
+```
+example: use area-server-1  
+example: use all  
+```
+**note**: context is what your command will be applied to  
 
 # Quit
 type **quit** and you can quit pomelo-cli  
@@ -93,16 +104,6 @@ example: show connections
 example: show proxy  
 example: show handler  
 example: show logins  
-```
-
-# Use
-use another server. takes serverId|all as argument  
-use {serverId|all}  
-then you will switch to serverId|all context  
-your command will be applied to serverId|all server  
-```
-example: use area-server-1  
-example: use all  
 ```
 
 # Enable
