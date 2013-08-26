@@ -18,7 +18,7 @@ pomelo-cli -h host -P port -u username -p password
 The default parameter of pomelo-cli is as follows:
 
 ```  
-pomelo-cli -h 127.0.0.1 -P 3306 -u monitor -p monitor 
+pomelo-cli -h 127.0.0.1 -P 3005 -u monitor -p monitor 
 ```  
 
 After that, pomelo-cli will enter repl mode. You can type 'help' for more information. 
