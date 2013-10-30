@@ -137,6 +137,22 @@ example: dump memory /home/xxx/test
 example: dump cpu /home/xxx/test 5 --force  
 example: dump memory /home/xxx/test --force  
 ```
+
+# AddCron
+add cron for server
+add args are key=value from crons.json config files  
+```
+example: addCron id=8 serverId=chat-server-1 'time=0 30 10 * * *' action=chatCron.send
+example: addCron id=8 serverType=chat 'time=0 30 10 * * *' action=chatCron.send
+```
+
+# RemoveCron
+remove cron for server
+```
+example: removeCron id=8 serverId=chat-server-1
+example: removeCron id=8 serverType=chat
+```
+
 ### Inspecting the snapshot  
 
 Open [Google Chrome](https://www.google.com/intl/en/chrome/browser/) and press F12 to open the developer toolbar.  
