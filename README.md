@@ -23,7 +23,7 @@ pomelo-cli -h 127.0.0.1 -P 3005 -u monitor -p monitor
 
 After that, pomelo-cli will enter repl mode. You can type 'help' for more information. 
 Enjoy it:
-![pomelo-cli help](http://ww2.sinaimg.cn/large/b7bc844fgw1e7l4m1q369j20io0jytcr.jpg)
+![pomelo-cli help](http://ww1.sinaimg.cn/mw690/b7bc844fgw1eaa5s16o2uj20hv0k4whw.jpg)
 
 ## Links
 [user level control](https://github.com/NetEase/pomelo-admin#user-level-control)  
