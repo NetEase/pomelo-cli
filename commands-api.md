@@ -153,6 +153,20 @@ example: removeCron id=8 serverId=chat-server-1
 example: removeCron id=8 serverType=chat
 ```
 
+# Blacklist
+add blacklist for frontend server
+```
+example: blacklist 192.168.10.120 192.168.18.60
+example: blacklist \b(([01]?\d?\d|2[0-4]\d|25[0-5])\.){3}([01]?\d?\d|2[0-4]\d|25[0-5])\b
+```
+
+# Run
+run script in server
+```
+example: run app.get("sessionService").getSessionsCount()
+example: run app.isMaster()
+```
+
 ### Inspecting the snapshot  
 
 Open [Google Chrome](https://www.google.com/intl/en/chrome/browser/) and press F12 to open the developer toolbar.  

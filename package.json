@@ -1,6 +1,6 @@
 {
   "name": "pomelo-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pomelo command line client for managing pomelo",
   "main": "index.js",
   "scripts": {
