@@ -18,10 +18,17 @@
   },
   "dependencies": {
     "optimist": ">=0.6.0",
+<<<<<<< Updated upstream
     "cliff": ">=0.1.8",
     "pomelo-admin": "0.4.x",
     "pomelo-logger": ">=0.0.3",
     "async": ">=0.1.0"
+=======
+    "cliff" : ">=0.1.8",
+    "node-zookeeper-client": "0.2.2",
+    "pomelo-logger" : ">=0.0.3",
+    "async" : ">=0.1.0"
+>>>>>>> Stashed changes
   },
   "author": "fantasyni",
   "license": "MIT"
