@@ -22,7 +22,7 @@
     "node-zookeeper-client": "0.2.2",
     "pomelo-logger" : ">=0.0.3",
     "async" : ">=0.1.0",
-    "redis" : "2.0.1"
+    "ioredis" : "1.10.0"
   },
   "author": "fantasyni",
   "license": "MIT"
