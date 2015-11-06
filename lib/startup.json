@@ -1,6 +1,6 @@
 {
     "env": "development",
-    "mode": "redis",
+    "mode": "zk",
     "redis": {
         "mode": "single",
         "redisNodes": {
