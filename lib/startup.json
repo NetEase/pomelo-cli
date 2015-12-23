@@ -1,13 +1,22 @@
 {
-    "env": "development",
+    "env": "ntest",
     "mode": "redis",
     "redis": {
-        "mode": "single",
-        "redisNodes": {
-            "port": 6379,
-            "host": "127.0.0.1"
-        },
-        "name": "",
-        "opts":{}
+        "mode": "sentinel",
+        "redisNodes":
+	[
+	 {
+    	"host": "10.180.154.90",
+    	"port": 26379
+         },
+         {
+   	  "host": "10.180.154.91",
+    	  "port": 26479
+         }
+        ]
+        ,
+        "name": "mymaster",
+	"password": "nas12345"
     }
 }
+
